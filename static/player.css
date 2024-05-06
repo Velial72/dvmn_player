@@ -11,43 +11,9 @@
       flex-grow: 1;
     }
     
-    .play_btn {
-      font-size: large; 
-      margin: 10px; 
-      border-style: none; 
-      background: transparent; 
-      cursor: pointer; 
-      color: white
-    }
-
-    .pause_btn {
-      font-size: large; 
-      margin: 10px; 
-      border-style: none; 
-      background: transparent; 
-      cursor: pointer; 
-      color: white
-    }
-
-    .mute_btn {
-      font-size: large; 
-      margin: 10px; 
-      border-style: none; 
-      background: transparent; 
-      cursor: pointer; 
-      color: white
-    }
-    
-    .volume_btn {
-      font-size: large; 
-      margin: 10px; 
-      border-style: none; 
-      background: transparent; 
-      cursor: pointer; 
-      color: white
-    }
-
-    .fullscreen_btn {
+    .btn {
+      width: 35px;
+      height: 35px;
       font-size: large; 
       margin: 10px; 
       border-style: none; 
