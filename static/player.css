@@ -1,4 +1,4 @@
-    .player {
+    .vp-player {
       width: 800px; 
       height: 600px; 
       box-shadow:0 0 20px rgba(0,0,0,50); 
@@ -6,12 +6,12 @@
       flex-direction: column;
     }
 
-    .video_container {
+    .vp-player__container {
       background-color: white; 
       flex-grow: 1;
     }
     
-    .btn {
+    .vp-player__btn{
       width: 35px;
       height: 35px;
       font-size: large; 
@@ -22,12 +22,12 @@
       color: white
     }
 
-    .player_buttons {
+    .vp-player__buttons {
       display: flex; 
       justify-content: space-between;
     }
 
-    .empty_space {
+    .vp-player__progress {
       display: flex; 
       flex-grow: 1;
     }
