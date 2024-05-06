@@ -1,0 +1,67 @@
+    .player {
+      width: 800px; 
+      height: 600px; 
+      box-shadow:0 0 20px rgba(0,0,0,50); 
+      display: flex; 
+      flex-direction: column;
+    }
+
+    .video_container {
+      background-color: white; 
+      flex-grow: 1;
+    }
+    
+    .play_btn {
+      font-size: large; 
+      margin: 10px; 
+      border-style: none; 
+      background: transparent; 
+      cursor: pointer; 
+      color: white
+    }
+
+    .pause_btn {
+      font-size: large; 
+      margin: 10px; 
+      border-style: none; 
+      background: transparent; 
+      cursor: pointer; 
+      color: white
+    }
+
+    .mute_btn {
+      font-size: large; 
+      margin: 10px; 
+      border-style: none; 
+      background: transparent; 
+      cursor: pointer; 
+      color: white
+    }
+    
+    .volume_btn {
+      font-size: large; 
+      margin: 10px; 
+      border-style: none; 
+      background: transparent; 
+      cursor: pointer; 
+      color: white
+    }
+
+    .fullscreen_btn {
+      font-size: large; 
+      margin: 10px; 
+      border-style: none; 
+      background: transparent; 
+      cursor: pointer; 
+      color: white
+    }
+
+    .player_buttons {
+      display: flex; 
+      justify-content: space-between;
+    }
+
+    .empty_space {
+      display: flex; 
+      flex-grow: 1;
+    }
