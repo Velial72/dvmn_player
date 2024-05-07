@@ -14,8 +14,9 @@
     .vp-player__btn{
       width: 35px;
       height: 35px;
-      font-size: large; 
-      margin: 10px; 
+      font-size: 20px; 
+      margin-bottom: 2px;
+      margin-right: 2px;
       border-style: none; 
       background: transparent; 
       cursor: pointer; 
