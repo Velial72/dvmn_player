@@ -25,12 +25,26 @@
       <button class="js-volume-button vp-player__btn">
         <i class="fa fa-volume-off" aria-hidden="true"></i>
       </button>
-      <div class="vp-player__duration" style="color: white;">
-        <span class="js-current-time"></span>
-        <div class="vp-player__progress"></div>
+
+
+
+      <div class="vp-player__viewing-panel" style="color: white;">
+        <div class="vp_player__time">
+          <span class="js-current-time"></span>
+        </div>
+
+        <div class="js-progress vp-player__progressbar">
+          <div class="js-progress-slider vp-payer__redline" style="background-color: red;"></div>
+          <span class="vp-player__dot"></span>
+        </div>
+
+        <div class="vp_player__duration">
         <span class="js-duration"></span>
+        </div>
       </div>
       
+
+
       <button class="js-fullscreen-button vp-player__btn">
         <i class="fa fa-expand" aria-hidden="true"></i>
       </button>
